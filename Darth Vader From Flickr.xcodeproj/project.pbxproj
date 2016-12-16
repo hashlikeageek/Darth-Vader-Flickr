@@ -14,6 +14,7 @@
 		C5542E6B1E040E9B002C6953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5542E691E040E9B002C6953 /* LaunchScreen.storyboard */; };
 		C5542E761E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E751E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift */; };
 		C5542E811E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E801E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift */; };
+		C5542E8F1E041483002C6953 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E8E1E041483002C6953 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C5542E7C1E040E9B002C6953 /* Darth Vader From FlickrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Darth Vader From FlickrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5542E801E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darth_Vader_From_FlickrUITests.swift; sourceTree = "<group>"; };
 		C5542E821E040E9B002C6953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5542E8E1E041483002C6953 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C5542E671E040E9B002C6953 /* Assets.xcassets */,
 				C5542E691E040E9B002C6953 /* LaunchScreen.storyboard */,
 				C5542E6C1E040E9B002C6953 /* Info.plist */,
+				C5542E8E1E041483002C6953 /* Constants.swift */,
 			);
 			path = "Darth Vader From Flickr";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				C5542E631E040E9B002C6953 /* ViewController.swift in Sources */,
 				C5542E611E040E9B002C6953 /* AppDelegate.swift in Sources */,
+				C5542E8F1E041483002C6953 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
