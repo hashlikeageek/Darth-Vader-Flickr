@@ -46,15 +46,32 @@ class ViewController: UIViewController {
         let task = URLSession.shared.dataTask(with: request){
             (data, response, error)
             in
+            
              print(data)
             if error == nil {
-                print("Entered in error")
-                print(data! as AnyObject)
+                
+                if let data = data {
+                    
+                    let parsedResult: [String:AnyObject]!
+                    do {
+                        parsedResult = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String:AnyObject]
+                    } catch {
+                        print("Could not parse the data as JSON: '\(data)'")
+                        return
+                    }
+                    
+                    if let jsondictionary = parsedResult["photos"] as? [String: AnyObject], let jsonarray = jsondictionary["photo"] as? [[String: AnyObject]]{
+                        print(jsonarray[0])
+                    }
+                    
+                   
+                }
             }
         }
         task.resume()
-        
-    }
+                }
+                
+    
    
     
 
