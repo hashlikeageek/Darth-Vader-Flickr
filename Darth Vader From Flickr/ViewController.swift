@@ -48,8 +48,8 @@ class ViewController: UIViewController {
             in
              print(data)
             if error == nil {
-                print("Entered in error wala thing")
-                print(data)
+                print("Entered in error")
+                print(data!)
             }
         }
         task.resume()
