@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5542E611E040E9B002C6953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E601E040E9B002C6953 /* AppDelegate.swift */; };
+		C5542E631E040E9B002C6953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E621E040E9B002C6953 /* ViewController.swift */; };
+		C5542E661E040E9B002C6953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5542E641E040E9B002C6953 /* Main.storyboard */; };
+		C5542E681E040E9B002C6953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5542E671E040E9B002C6953 /* Assets.xcassets */; };
+		C5542E6B1E040E9B002C6953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5542E691E040E9B002C6953 /* LaunchScreen.storyboard */; };
+		C5542E761E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E751E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift */; };
+		C5542E811E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E801E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5542E721E040E9B002C6953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5542E551E040E9B002C6953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5542E5C1E040E9B002C6953;
+			remoteInfo = "Darth Vader From Flickr";
+		};
+		C5542E7D1E040E9B002C6953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5542E551E040E9B002C6953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5542E5C1E040E9B002C6953;
+			remoteInfo = "Darth Vader From Flickr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5542E5D1E040E9B002C6953 /* Darth Vader From Flickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darth Vader From Flickr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5542E601E040E9B002C6953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5542E621E040E9B002C6953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5542E651E040E9B002C6953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5542E671E040E9B002C6953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5542E6A1E040E9B002C6953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5542E6C1E040E9B002C6953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5542E711E040E9B002C6953 /* Darth Vader From FlickrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Darth Vader From FlickrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5542E751E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darth_Vader_From_FlickrTests.swift; sourceTree = "<group>"; };
+		C5542E771E040E9B002C6953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5542E7C1E040E9B002C6953 /* Darth Vader From FlickrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Darth Vader From FlickrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5542E801E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darth_Vader_From_FlickrUITests.swift; sourceTree = "<group>"; };
+		C5542E821E040E9B002C6953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5542E5A1E040E9B002C6953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5542E6E1E040E9B002C6953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5542E791E040E9B002C6953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5542E541E040E9B002C6953 = {
+			isa = PBXGroup;
+			children = (
+				C5542E5F1E040E9B002C6953 /* Darth Vader From Flickr */,
+				C5542E741E040E9B002C6953 /* Darth Vader From FlickrTests */,
+				C5542E7F1E040E9B002C6953 /* Darth Vader From FlickrUITests */,
+				C5542E5E1E040E9B002C6953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5542E5E1E040E9B002C6953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5542E5D1E040E9B002C6953 /* Darth Vader From Flickr.app */,
+				C5542E711E040E9B002C6953 /* Darth Vader From FlickrTests.xctest */,
+				C5542E7C1E040E9B002C6953 /* Darth Vader From FlickrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5542E5F1E040E9B002C6953 /* Darth Vader From Flickr */ = {
+			isa = PBXGroup;
+			children = (
+				C5542E601E040E9B002C6953 /* AppDelegate.swift */,
+				C5542E621E040E9B002C6953 /* ViewController.swift */,
+				C5542E641E040E9B002C6953 /* Main.storyboard */,
+				C5542E671E040E9B002C6953 /* Assets.xcassets */,
+				C5542E691E040E9B002C6953 /* LaunchScreen.storyboard */,
+				C5542E6C1E040E9B002C6953 /* Info.plist */,
+			);
+			path = "Darth Vader From Flickr";
+			sourceTree = "<group>";
+		};
+		C5542E741E040E9B002C6953 /* Darth Vader From FlickrTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5542E751E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift */,
+				C5542E771E040E9B002C6953 /* Info.plist */,
+			);
+			path = "Darth Vader From FlickrTests";
+			sourceTree = "<group>";
+		};
+		C5542E7F1E040E9B002C6953 /* Darth Vader From FlickrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5542E801E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift */,
+				C5542E821E040E9B002C6953 /* Info.plist */,
+			);
+			path = "Darth Vader From FlickrUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5542E5C1E040E9B002C6953 /* Darth Vader From Flickr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5542E851E040E9B002C6953 /* Build configuration list for PBXNativeTarget "Darth Vader From Flickr" */;
+			buildPhases = (
+				C5542E591E040E9B002C6953 /* Sources */,
+				C5542E5A1E040E9B002C6953 /* Frameworks */,
+				C5542E5B1E040E9B002C6953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Darth Vader From Flickr";
+			productName = "Darth Vader From Flickr";
+			productReference = C5542E5D1E040E9B002C6953 /* Darth Vader From Flickr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5542E701E040E9B002C6953 /* Darth Vader From FlickrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5542E881E040E9B002C6953 /* Build configuration list for PBXNativeTarget "Darth Vader From FlickrTests" */;
+			buildPhases = (
+				C5542E6D1E040E9B002C6953 /* Sources */,
+				C5542E6E1E040E9B002C6953 /* Frameworks */,
+				C5542E6F1E040E9B002C6953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5542E731E040E9B002C6953 /* PBXTargetDependency */,
+			);
+			name = "Darth Vader From FlickrTests";
+			productName = "Darth Vader From FlickrTests";
+			productReference = C5542E711E040E9B002C6953 /* Darth Vader From FlickrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5542E7B1E040E9B002C6953 /* Darth Vader From FlickrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5542E8B1E040E9B002C6953 /* Build configuration list for PBXNativeTarget "Darth Vader From FlickrUITests" */;
+			buildPhases = (
+				C5542E781E040E9B002C6953 /* Sources */,
+				C5542E791E040E9B002C6953 /* Frameworks */,
+				C5542E7A1E040E9B002C6953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5542E7E1E040E9B002C6953 /* PBXTargetDependency */,
+			);
+			name = "Darth Vader From FlickrUITests";
+			productName = "Darth Vader From FlickrUITests";
+			productReference = C5542E7C1E040E9B002C6953 /* Darth Vader From FlickrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5542E551E040E9B002C6953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ashish Rajendra Kumar Sai";
+				TargetAttributes = {
+					C5542E5C1E040E9B002C6953 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5Z7V5R3L58;
+						ProvisioningStyle = Automatic;
+					};
+					C5542E701E040E9B002C6953 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5Z7V5R3L58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5542E5C1E040E9B002C6953;
+					};
+					C5542E7B1E040E9B002C6953 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5Z7V5R3L58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5542E5C1E040E9B002C6953;
+					};
+				};
+			};
+			buildConfigurationList = C5542E581E040E9B002C6953 /* Build configuration list for PBXProject "Darth Vader From Flickr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5542E541E040E9B002C6953;
+			productRefGroup = C5542E5E1E040E9B002C6953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5542E5C1E040E9B002C6953 /* Darth Vader From Flickr */,
+				C5542E701E040E9B002C6953 /* Darth Vader From FlickrTests */,
+				C5542E7B1E040E9B002C6953 /* Darth Vader From FlickrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5542E5B1E040E9B002C6953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5542E6B1E040E9B002C6953 /* LaunchScreen.storyboard in Resources */,
+				C5542E681E040E9B002C6953 /* Assets.xcassets in Resources */,
+				C5542E661E040E9B002C6953 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5542E6F1E040E9B002C6953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5542E7A1E040E9B002C6953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5542E591E040E9B002C6953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5542E631E040E9B002C6953 /* ViewController.swift in Sources */,
+				C5542E611E040E9B002C6953 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5542E6D1E040E9B002C6953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5542E761E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5542E781E040E9B002C6953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5542E811E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5542E731E040E9B002C6953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5542E5C1E040E9B002C6953 /* Darth Vader From Flickr */;
+			targetProxy = C5542E721E040E9B002C6953 /* PBXContainerItemProxy */;
+		};
+		C5542E7E1E040E9B002C6953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5542E5C1E040E9B002C6953 /* Darth Vader From Flickr */;
+			targetProxy = C5542E7D1E040E9B002C6953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5542E641E040E9B002C6953 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5542E651E040E9B002C6953 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5542E691E040E9B002C6953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5542E6A1E040E9B002C6953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5542E831E040E9B002C6953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5542E841E040E9B002C6953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5542E861E040E9B002C6953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Z7V5R3L58;
+				INFOPLIST_FILE = "Darth Vader From Flickr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ashishrsai.Darth-Vader-From-Flickr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C5542E871E040E9B002C6953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Z7V5R3L58;
+				INFOPLIST_FILE = "Darth Vader From Flickr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ashishrsai.Darth-Vader-From-Flickr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C5542E891E040E9B002C6953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5Z7V5R3L58;
+				INFOPLIST_FILE = "Darth Vader From FlickrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ashishrsai.Darth-Vader-From-FlickrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Darth Vader From Flickr.app/Darth Vader From Flickr";
+			};
+			name = Debug;
+		};
+		C5542E8A1E040E9B002C6953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5Z7V5R3L58;
+				INFOPLIST_FILE = "Darth Vader From FlickrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ashishrsai.Darth-Vader-From-FlickrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Darth Vader From Flickr.app/Darth Vader From Flickr";
+			};
+			name = Release;
+		};
+		C5542E8C1E040E9B002C6953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5Z7V5R3L58;
+				INFOPLIST_FILE = "Darth Vader From FlickrUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ashishrsai.Darth-Vader-From-FlickrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Darth Vader From Flickr";
+			};
+			name = Debug;
+		};
+		C5542E8D1E040E9B002C6953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5Z7V5R3L58;
+				INFOPLIST_FILE = "Darth Vader From FlickrUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ashishrsai.Darth-Vader-From-FlickrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Darth Vader From Flickr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5542E581E040E9B002C6953 /* Build configuration list for PBXProject "Darth Vader From Flickr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5542E831E040E9B002C6953 /* Debug */,
+				C5542E841E040E9B002C6953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5542E851E040E9B002C6953 /* Build configuration list for PBXNativeTarget "Darth Vader From Flickr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5542E861E040E9B002C6953 /* Debug */,
+				C5542E871E040E9B002C6953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5542E881E040E9B002C6953 /* Build configuration list for PBXNativeTarget "Darth Vader From FlickrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5542E891E040E9B002C6953 /* Debug */,
+				C5542E8A1E040E9B002C6953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5542E8B1E040E9B002C6953 /* Build configuration list for PBXNativeTarget "Darth Vader From FlickrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5542E8C1E040E9B002C6953 /* Debug */,
+				C5542E8D1E040E9B002C6953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5542E551E040E9B002C6953 /* Project object */;
+}
