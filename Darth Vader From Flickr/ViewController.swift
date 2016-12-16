@@ -49,7 +49,7 @@ class ViewController: UIViewController {
              print(data)
             if error == nil {
                 print("Entered in error")
-                print(data!)
+                print(data! as AnyObject)
             }
         }
         task.resume()
