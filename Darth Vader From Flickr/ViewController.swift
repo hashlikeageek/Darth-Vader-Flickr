@@ -17,18 +17,11 @@ class ViewController: UIViewController {
     
     @IBAction func gettheimages(_ sender: Any) {
         print("I am in gettheImage method")
-        disableUI(enabled: false)
+        
         UseTheApi()
     }
 
-    func disableUI(enabled: Bool)
-    {
-        
-        headerTitle.isEnabled = false
-        nextImageButton.isEnabled = false
-        print("You Just called disableUI")
-    }
-   
+    
     func UseTheApi()
     {
         print("Entered in Usetheapi")
@@ -61,7 +54,23 @@ class ViewController: UIViewController {
                     }
                     
                     if let jsondictionary = parsedResult["photos"] as? [String: AnyObject], let jsonarray = jsondictionary["photo"] as? [[String: AnyObject]]{
-                        print(jsonarray[0])
+                    let randomentry = Int (arc4random_uniform(UInt32(jsonarray.count)))
+                        let finalentry = jsonarray[randomentry] as [String: AnyObject]
+                        
+                      if let randomURl = finalentry["url_m"] as? String, let randomTitle = finalentry["title"] as? String
+                      {
+                        let useImage = URL(string: randomURl)
+                        if let imageData = try? Data(contentsOf: useImage!)
+                        {
+                            performUIUpdatesOnMain {
+                                self.imageView.image = UIImage(data: imageData)
+                                self.headerTitle.text = randomTitle
+                               
+                                
+                            }
+                        }
+                        }
+                        
                     }
                     
                    

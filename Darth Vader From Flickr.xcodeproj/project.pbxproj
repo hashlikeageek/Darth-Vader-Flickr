@@ -15,6 +15,7 @@
 		C5542E761E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E751E040E9B002C6953 /* Darth_Vader_From_FlickrTests.swift */; };
 		C5542E811E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E801E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift */; };
 		C5542E8F1E041483002C6953 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E8E1E041483002C6953 /* Constants.swift */; };
+		C5542E911E044FFF002C6953 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5542E901E044FFF002C6953 /* GCDBlackBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C5542E801E040E9B002C6953 /* Darth_Vader_From_FlickrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Darth_Vader_From_FlickrUITests.swift; sourceTree = "<group>"; };
 		C5542E821E040E9B002C6953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5542E8E1E041483002C6953 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C5542E901E044FFF002C6953 /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				C5542E601E040E9B002C6953 /* AppDelegate.swift */,
 				C5542E621E040E9B002C6953 /* ViewController.swift */,
+				C5542E901E044FFF002C6953 /* GCDBlackBox.swift */,
 				C5542E641E040E9B002C6953 /* Main.storyboard */,
 				C5542E671E040E9B002C6953 /* Assets.xcassets */,
 				C5542E691E040E9B002C6953 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5542E911E044FFF002C6953 /* GCDBlackBox.swift in Sources */,
 				C5542E631E040E9B002C6953 /* ViewController.swift in Sources */,
 				C5542E611E040E9B002C6953 /* AppDelegate.swift in Sources */,
 				C5542E8F1E041483002C6953 /* Constants.swift in Sources */,

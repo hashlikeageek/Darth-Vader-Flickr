@@ -21,18 +21,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GXH-vK-hGV">
-                                <rect key="frame" x="16" y="77" width="343" height="513"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GXH-vK-hGV">
+                                <rect key="frame" x="16" y="121" width="343" height="469"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2j-8o-2Cg">
                                 <rect key="frame" x="16" y="617" width="343" height="30"/>
-                                <state key="normal" title="You underestimate the power of the dark side"/>
+                                <state key="normal" title="Next Image"/>
                                 <connections>
                                     <action selector="gettheimages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OMf-Sb-N7L"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FORCE IS STRONG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qab-fS-fbw">
-                                <rect key="frame" x="114.5" y="20" width="146.5" height="21"/>
+                                <rect key="frame" x="114" y="20" width="147" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May The Force Be With You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rB3-6z-e1C">
+                                <rect key="frame" x="82" y="48" width="211" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -40,15 +46,19 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="GXH-vK-hGV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4U3-TY-x5U"/>
+                            <constraint firstItem="GXH-vK-hGV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="22" id="4U3-TY-x5U"/>
                             <constraint firstItem="GXH-vK-hGV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4k3-K1-l2a"/>
+                            <constraint firstItem="rB3-6z-e1C" firstAttribute="top" secondItem="qab-fS-fbw" secondAttribute="bottom" constant="7" id="PUM-no-9SG"/>
                             <constraint firstItem="GXH-vK-hGV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UVV-w5-6vX"/>
                             <constraint firstItem="qab-fS-fbw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z86-44-zzr"/>
                             <constraint firstItem="GXH-vK-hGV" firstAttribute="leading" secondItem="P2j-8o-2Cg" secondAttribute="leading" id="ZiO-52-cH2"/>
                             <constraint firstItem="qab-fS-fbw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="cLd-Fr-AZz"/>
                             <constraint firstItem="P2j-8o-2Cg" firstAttribute="top" secondItem="GXH-vK-hGV" secondAttribute="bottom" constant="27" id="mzo-0b-W1W"/>
-                            <constraint firstItem="GXH-vK-hGV" firstAttribute="top" secondItem="qab-fS-fbw" secondAttribute="bottom" constant="36" id="wor-x2-39m"/>
+                            <constraint firstItem="rB3-6z-e1C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="raX-IN-umB"/>
+                            <constraint firstItem="rB3-6z-e1C" firstAttribute="top" secondItem="qab-fS-fbw" secondAttribute="bottom" constant="7" id="wGD-78-Jat"/>
+                            <constraint firstItem="GXH-vK-hGV" firstAttribute="top" secondItem="qab-fS-fbw" secondAttribute="bottom" constant="80" id="wor-x2-39m"/>
                             <constraint firstItem="GXH-vK-hGV" firstAttribute="trailing" secondItem="P2j-8o-2Cg" secondAttribute="trailing" id="wpR-eA-ohN"/>
+                            <constraint firstItem="GXH-vK-hGV" firstAttribute="top" secondItem="rB3-6z-e1C" secondAttribute="bottom" constant="52" id="zAZ-6h-W5i"/>
                         </constraints>
                     </view>
                     <connections>
@@ -59,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.28185907046478" y="138.40000000000001"/>
+            <point key="canvasLocation" x="135.19999999999999" y="138.0809595202399"/>
         </scene>
     </scenes>
 </document>
